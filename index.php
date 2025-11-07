@@ -49,7 +49,15 @@
 
     <?php 
     // get method
-    echo $_GET["name"] //this will work for localhost/webphp(folder)/index.php?name=partho  --it gets value from the net
+    echo $_GET["name"]; //this will work for localhost/webphp(folder)/index.php?name=partho  --it gets value from the net
+
+    echo $_FILES[""];  
+    //this super global is used to get files from the site and also double check if thse file size
+
+    echo "<br>";
+
+    $_SESSION["usernm"] = "Roy";
+    echo $_SESSION["usernm"];
     ?>
 </body>
 </html>
